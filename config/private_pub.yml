@@ -5,6 +5,6 @@ test:
   server: "http://localhost:9292/faye"
   secret_token: "secret"
 production:
-  server: ""
+  server: "https://private-pub-chat-app.herokuapp.com/faye"
   secret_token: "898104b80053b7a400aa5d3d5b3a63990790ba828578624292eb3b80b4d3cc7c"
   signature_expiration: 3600 # one hour
